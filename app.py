@@ -1,4 +1,4 @@
-pip install streamlit
+
 import streamlit as st
 import numpy as np
 from scipy.stats import weibull_min
