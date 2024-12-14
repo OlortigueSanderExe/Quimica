@@ -34,4 +34,4 @@ def calcular_energia(forma_weibull, escala_weibull, velocidad_viento_promedio):
 if st.button("Calcular Energía"):
     energia = calcular_energia(forma_weibull, escala_weibull, velocidad_viento_promedio)
     st.write(f"Energía estimada generada por año: {energia:.2f} kWh")
-streamlit run app.py
+
